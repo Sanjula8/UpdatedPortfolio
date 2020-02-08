@@ -1,0 +1,127 @@
+.navbar-brand {
+	font-family: "Cedarville Cursive", cursive;
+	font-size: 40px;
+}
+
+.nav-link,
+.navbar-brand {
+	color: rgb(255, 255, 255) !important;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar a:hover {
+	background-color: rgb(46, 4, 38);
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.hero {
+	/* Sizing */
+	width: 100vw;
+	height: 100vh;
+
+	/* Flexbox stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Text styles */
+	text-align: center;
+	color: white;
+
+	/* Background styles */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("starrysky.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.hero h1 {
+	/* Text styles */
+	font-size: 5em;
+	font-family: "Cedarville Cursive", cursive;
+
+	/* Margins */
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.hero .btn {
+	background-color: transparent;
+	/* Positioning and sizing */
+	display: block;
+	width: 200px;
+
+	/* Padding and margins */
+	padding: 1em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Text styles */
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+
+	/* Border styles */
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+.hero .btn:hover {
+	background-color: white;
+	color: rgb(46, 4, 38);
+}
+
+.aboutme-image {
+	margin-top: 90px;
+}
+
+.about-me {
+	/* background: linear-gradient(
+		90deg,
+		rgb(199, 186, 238) 27%,
+		rgb(16, 1, 48) 88%
+	); */
+	background: linear-gradient(-45deg, #0c0c0c, #2d0534, #0f0865, #ffffff);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.h1-about {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	color: white;
+	font-family: "Cedarville Cursive", cursive;
+	font-size: 90px;
+}
+
+.p-aboutme {
+	color: white;
+	border-bottom: 3px white solid;
+	border-top: 3px white solid;
+}
+
+.card {
+	background-color: transparent;
+}
