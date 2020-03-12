@@ -1,1 +1,1 @@
-var $currentDay=$("#currentDay"),currentHour=moment().hours();function clock(){var a=moment().format("MMMM Do YYYY, h:mm:ss A");$currentDay.html(a),setTimeout(clock,1e3)}clock();
+// var $currentDay=$("#currentDay"),currentHour=moment().hours();function clock(){var a=moment().format("MMMM Do YYYY, h:mm:ss A");$currentDay.html(a),setTimeout(clock,1e3)}clock();
